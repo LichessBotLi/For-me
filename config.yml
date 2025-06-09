@@ -191,12 +191,12 @@ messages:
 #   - Username1
 #   - Username2
 
- blacklist:                              # List of users who are not challenged and whose challenges are declined.
-   - Stockfish-MEDIUM
-   - Torombot
-   - Nikitosik-ai
-   - Nikitosikbot_v2
-   - Kyred_pet
+  blacklist:                              # List of users who are not challenged and whose challenges are declined.
+    - Stockfish-MEDIUM
+    - Torombot
+    - Nikitosik-ai
+    - Nikitosikbot_v2
+    - Kyred_pet
 
 books:                                    # Names of the opening books (to be used above in the opening_books section) and paths to the opening books.
   Torma: "engines/Torma.bin"
