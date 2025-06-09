@@ -38,6 +38,7 @@ jobs:
       - name: Stockfish
         run: |
           chmod +x ./engines/stockfish
+          chmod +x ./engines/fairy-stockfish-largeboard_x86-64-bmi2
 
       - name: Running bot
         run: python user_interface.py --matchmaking 
