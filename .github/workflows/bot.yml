@@ -41,4 +41,4 @@ jobs:
           chmod +x ./engines/fairy-stockfish-largeboard_x86-64-bmi2
 
       - name: Running bot
-        run: python user_interface.py --matchmaking 
+        run: python user_interface.py
