@@ -166,8 +166,8 @@ matchmaking:
 #     tc: 0.5+1
 #     rated: false
 #     variant: chess960
-#   optional_settings:
-#     rated: true                         # Whether matchmaking should play rated games. Default: true
+   optional_settings:
+#     rated: false                         # Whether matchmaking should play rated games. Default: true
 #     variant: standard                   # Chess variant (https://lichess.org/variant) to challenge. Default: standard
 #     weight: 100                         # Weight with which this type is selected. Default: Types are played according to their time control.
 #     multiplier: 15                      # Multiplier for calculating timeouts in matchmaking. Default: smart multiplier calculation.
@@ -191,9 +191,12 @@ messages:
 #   - Username1
 #   - Username2
 
-# blacklist:                              # List of users who are not challenged and whose challenges are declined.
-#   - Stockfish-MEDIUM
-#   - Username2
+ blacklist:                              # List of users who are not challenged and whose challenges are declined.
+   - Stockfish-MEDIUM
+   - Torombot
+   - Nikitosik-ai
+   - Nikitosikbot_v2
+   - Kyred_pet
 
 books:                                    # Names of the opening books (to be used above in the opening_books section) and paths to the opening books.
   Torma: "engines/Torma.bin"
